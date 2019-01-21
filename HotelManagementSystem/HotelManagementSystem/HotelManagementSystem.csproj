@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckInForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckInForm.Designer.cs">
+      <DependentUpon>CheckInForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CheckInForm.resx">
+      <DependentUpon>CheckInForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +115,7 @@
     <Content Include="photos\93405661-user-account-avatar-line-icon-outline-vector-sign-linear-style-pictogram-isolated-on-white-admin-pro.jpg" />
     <Content Include="photos\add.jpg" />
     <Content Include="photos\administrator-xxl.jpg" />
+    <Content Include="photos\back-logo-icon-27727.jpg" />
     <Content Include="photos\circle-check-512.jpg" />
     <Content Include="photos\depositphotos_212923008-stock-illustration-exit-icon-vector-isolated-white.jpg" />
     <Content Include="photos\download %281%29.jpg" />
@@ -115,6 +125,8 @@
     <Content Include="photos\istockphoto-669353760-1024x1024.jpg" />
     <Content Include="photos\locker.jpg" />
     <Content Include="photos\map-marker-2-xxl.jpg" />
+    <Content Include="photos\minus.jpg" />
+    <Content Include="photos\plus.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

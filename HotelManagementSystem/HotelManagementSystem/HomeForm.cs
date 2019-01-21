@@ -28,5 +28,26 @@ namespace HotelManagementSystem
             LoginForm login = new LoginForm();
             login.Show();
         }
+
+        private void btncheckin_Click(object sender, EventArgs e)
+        {
+
+            if (panel3.Controls.Contains(CheckInForm.Instance)!=true) {
+
+                panel3.Controls.Add(CheckInForm.Instance);
+                CheckInForm.Instance.Dock = DockStyle.Fill;
+                CheckInForm.Instance.BringToFront();
+                CheckInForm.Instance.Visible = true;
+
+            }
+            CheckInForm.Instance.BringToFront();
+            CheckInForm.Instance.Visible = true;
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
