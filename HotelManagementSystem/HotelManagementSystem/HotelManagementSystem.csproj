@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,12 +99,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="photos\106771184-exit-vector-icon-isolated-on-transparent-background-exit-logo-concept.jpg" />
+    <Content Include="photos\200-2004006_beds12-bed-logo-png-transparent.jpg" />
+    <Content Include="photos\573a4743bc3b15ee164d8987_GBWL-01.jpg" />
     <Content Include="photos\76438208-bed-line-icon-outline-hotel-room-vector-logo-linear-pictogram-isolated-on-white-pixel-perfect-illust.jpg" />
+    <Content Include="photos\93405661-user-account-avatar-line-icon-outline-vector-sign-linear-style-pictogram-isolated-on-white-admin-pro.jpg" />
     <Content Include="photos\add.jpg" />
     <Content Include="photos\administrator-xxl.jpg" />
+    <Content Include="photos\circle-check-512.jpg" />
+    <Content Include="photos\depositphotos_212923008-stock-illustration-exit-icon-vector-isolated-white.jpg" />
     <Content Include="photos\download %281%29.jpg" />
     <Content Include="photos\download.jpg" />
     <Content Include="photos\images %281%29.jpg" />
+    <Content Include="photos\istockphoto-1025633336-1024x1024.jpg" />
+    <Content Include="photos\istockphoto-669353760-1024x1024.jpg" />
     <Content Include="photos\locker.jpg" />
     <Content Include="photos\map-marker-2-xxl.jpg" />
   </ItemGroup>

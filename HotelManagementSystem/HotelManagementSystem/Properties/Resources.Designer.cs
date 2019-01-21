@@ -63,10 +63,51 @@ namespace HotelManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _106771184_exit_vector_icon_isolated_on_transparent_background_exit_logo_concept {
+            get {
+                object obj = ResourceManager.GetObject("106771184-exit-vector-icon-isolated-on-transparent-background-exit-logo-concept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _200_2004006_beds12_bed_logo_png_transparent {
+            get {
+                object obj = ResourceManager.GetObject("200-2004006_beds12-bed-logo-png-transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _573a4743bc3b15ee164d8987_GBWL_01 {
+            get {
+                object obj = ResourceManager.GetObject("573a4743bc3b15ee164d8987_GBWL-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _76438208_bed_line_icon_outline_hotel_room_vector_logo_linear_pictogram_isolated_on_white_pixel_perfect_illust {
             get {
                 object obj = ResourceManager.GetObject("76438208-bed-line-icon-outline-hotel-room-vector-logo-linear-pictogram-isolated-o" +
                         "n-white-pixel-perfect-illust", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _93405661_user_account_avatar_line_icon_outline_vector_sign_linear_style_pictogram_isolated_on_white_admin_pro {
+            get {
+                object obj = ResourceManager.GetObject("93405661-user-account-avatar-line-icon-outline-vector-sign-linear-style-pictogram" +
+                        "-isolated-on-white-admin-pro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -87,6 +128,26 @@ namespace HotelManagementSystem.Properties {
         internal static System.Drawing.Bitmap administrator_xxl {
             get {
                 object obj = ResourceManager.GetObject("administrator-xxl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_check_512 {
+            get {
+                object obj = ResourceManager.GetObject("circle-check-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap depositphotos_212923008_stock_illustration_exit_icon_vector_isolated_white {
+            get {
+                object obj = ResourceManager.GetObject("depositphotos_212923008-stock-illustration-exit-icon-vector-isolated-white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -117,6 +178,26 @@ namespace HotelManagementSystem.Properties {
         internal static System.Drawing.Bitmap images__1_ {
             get {
                 object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1025633336_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1025633336-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_669353760_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-669353760-1024x1024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

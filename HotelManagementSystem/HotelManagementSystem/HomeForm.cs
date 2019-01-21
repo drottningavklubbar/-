@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace HotelManagementSystem
 {
-    public partial class LoginForm : Form
+    public partial class HomeForm : Form
     {
-        public LoginForm()
+        public HomeForm()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LoginForm_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnclose_Click(object sender, EventArgs e)
@@ -32,11 +22,9 @@ namespace HotelManagementSystem
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnlogout_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            HomeForm home = new HomeForm();
-            home.Show();
+            Application.Exit();
         }
     }
 }
