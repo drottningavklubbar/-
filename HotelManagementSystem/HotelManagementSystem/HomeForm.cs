@@ -24,7 +24,9 @@ namespace HotelManagementSystem
 
         private void btnlogout_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.Show();
         }
     }
 }
