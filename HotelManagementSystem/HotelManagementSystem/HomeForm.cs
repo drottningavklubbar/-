@@ -121,6 +121,51 @@ namespace HotelManagementSystem
             RoomListForm.Instance.BringToFront();
             RoomListForm.Instance.Visible = true;
         }
-    
+
+        private void btncheckout_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(CheckOutForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(CheckOutForm.Instance);
+                CheckOutForm.Instance.Dock = DockStyle.Fill;
+                CheckOutForm.Instance.BringToFront();
+                CheckOutForm.Instance.Visible = true;
+
+            }
+            CheckOutForm.Instance.BringToFront();
+            CheckOutForm.Instance.Visible = true;
+        }
+
+        private void btncheckoutlist_Click(object sender, EventArgs e)
+        {
+
+            if (panel3.Controls.Contains(CheckOutListForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(CheckOutListForm.Instance);
+                CheckOutListForm.Instance.Dock = DockStyle.Fill;
+                CheckOutListForm.Instance.BringToFront();
+                CheckOutListForm.Instance.Visible = true;
+
+            }
+            CheckOutListForm.Instance.BringToFront();
+            CheckOutListForm.Instance.Visible = true;
+        }
+
+        private void btndiscount_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(DiscountForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(DiscountForm.Instance);
+                DiscountForm.Instance.Dock = DockStyle.Fill;
+                DiscountForm.Instance.BringToFront();
+                DiscountForm.Instance.Visible = true;
+
+            }
+            DiscountForm.Instance.BringToFront();
+            DiscountForm.Instance.Visible = true;
+        }
     }
 }

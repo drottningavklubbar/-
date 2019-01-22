@@ -58,6 +58,24 @@
     <Compile Include="CheckInListForm.Designer.cs">
       <DependentUpon>CheckInListForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckOutForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckOutForm.Designer.cs">
+      <DependentUpon>CheckOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckOutListForm.Designer.cs">
+      <DependentUpon>CheckOutListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiscountForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DiscountForm.Designer.cs">
+      <DependentUpon>DiscountForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GuestForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -108,6 +126,15 @@
     <EmbeddedResource Include="CheckInListForm.resx">
       <DependentUpon>CheckInListForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutForm.resx">
+      <DependentUpon>CheckOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutListForm.resx">
+      <DependentUpon>CheckOutListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiscountForm.resx">
+      <DependentUpon>DiscountForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GuestForm.resx">
       <DependentUpon>GuestForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +180,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="photos\09_search-512.jpg" />
     <Content Include="photos\106771184-exit-vector-icon-isolated-on-transparent-background-exit-logo-concept.jpg" />
     <Content Include="photos\200-2004006_beds12-bed-logo-png-transparent.jpg" />
     <Content Include="photos\573a4743bc3b15ee164d8987_GBWL-01.jpg" />

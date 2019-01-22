@@ -63,6 +63,16 @@ namespace HotelManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _09_search_512 {
+            get {
+                object obj = ResourceManager.GetObject("09_search-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _106771184_exit_vector_icon_isolated_on_transparent_background_exit_logo_concept {
             get {
                 object obj = ResourceManager.GetObject("106771184-exit-vector-icon-isolated-on-transparent-background-exit-logo-concept", resourceCulture);
