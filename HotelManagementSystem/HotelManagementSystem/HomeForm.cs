@@ -45,9 +45,82 @@ namespace HotelManagementSystem
 
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
+        
 
+        private void btncheckinlist_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(CheckInListForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(CheckInListForm.Instance);
+                CheckInListForm.Instance.Dock = DockStyle.Fill;
+                CheckInListForm.Instance.BringToFront();
+                CheckInListForm.Instance.Visible = true;
+
+            }
+            CheckInListForm.Instance.BringToFront();
+            CheckInListForm.Instance.Visible = true;
         }
+
+        private void btnguest_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(GuestForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(GuestForm.Instance);
+                GuestForm.Instance.Dock = DockStyle.Fill;
+                GuestForm.Instance.BringToFront();
+                GuestForm.Instance.Visible = true;
+
+            }
+            GuestForm.Instance.BringToFront();
+            GuestForm.Instance.Visible = true;
+        }
+
+        private void btnguestinlist_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(GuestInListForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(GuestInListForm.Instance);
+                GuestInListForm.Instance.Dock = DockStyle.Fill;
+                GuestInListForm.Instance.BringToFront();
+                GuestInListForm.Instance.Visible = true;
+
+            }
+            GuestInListForm.Instance.BringToFront();
+            GuestInListForm.Instance.Visible = true;
+        }
+
+        private void btnroom_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(RoomForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(RoomForm.Instance);
+                RoomForm.Instance.Dock = DockStyle.Fill;
+                RoomForm.Instance.BringToFront();
+                RoomForm.Instance.Visible = true;
+
+            }
+            RoomForm.Instance.BringToFront();
+            RoomForm.Instance.Visible = true;
+        }
+
+        private void btnroomlist_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(RoomListForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(RoomListForm.Instance);
+                RoomListForm.Instance.Dock = DockStyle.Fill;
+                RoomListForm.Instance.BringToFront();
+                RoomListForm.Instance.Visible = true;
+
+            }
+            RoomListForm.Instance.BringToFront();
+            RoomListForm.Instance.Visible = true;
+        }
+    
     }
 }

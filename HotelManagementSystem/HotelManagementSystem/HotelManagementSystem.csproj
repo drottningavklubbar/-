@@ -52,6 +52,24 @@
     <Compile Include="CheckInForm.Designer.cs">
       <DependentUpon>CheckInForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CheckInListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CheckInListForm.Designer.cs">
+      <DependentUpon>CheckInListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GuestForm.Designer.cs">
+      <DependentUpon>GuestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestInListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GuestInListForm.Designer.cs">
+      <DependentUpon>GuestInListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +82,18 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RoomForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoomForm.Designer.cs">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomListForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoomListForm.Designer.cs">
+      <DependentUpon>RoomListForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreenForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +104,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CheckInForm.resx">
       <DependentUpon>CheckInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckInListForm.resx">
+      <DependentUpon>CheckInListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestForm.resx">
+      <DependentUpon>GuestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestInListForm.resx">
+      <DependentUpon>GuestInListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
@@ -91,6 +130,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RoomForm.resx">
+      <DependentUpon>RoomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomListForm.resx">
+      <DependentUpon>RoomListForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SplashScreenForm.resx">
       <DependentUpon>SplashScreenForm.cs</DependentUpon>
     </EmbeddedResource>

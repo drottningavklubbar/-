@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btncheckin = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
@@ -60,57 +61,32 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox12 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnminus = new System.Windows.Forms.PictureBox();
+            this.btnplus = new System.Windows.Forms.PictureBox();
             this.btnremove = new System.Windows.Forms.PictureBox();
             this.btnadd = new System.Windows.Forms.PictureBox();
             this.btnback = new System.Windows.Forms.PictureBox();
-            this.btnplus = new System.Windows.Forms.PictureBox();
-            this.btnminus = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnminus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnplus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnremove)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnadd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnback)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnplus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnminus)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.btnback);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(601, 30);
             this.panel1.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(171, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 28);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "|";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(195, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 28);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Check In List";
             // 
             // label1
             // 
@@ -184,6 +160,27 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(601, 376);
             this.panel3.TabIndex = 1;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(145, 3);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(134, 20);
+            this.textBox12.TabIndex = 27;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(143, 149);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(155, 20);
+            this.dateTimePicker2.TabIndex = 26;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(443, 149);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(155, 20);
+            this.dateTimePicker1.TabIndex = 25;
             // 
             // textBox11
             // 
@@ -402,27 +399,6 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Transaction ID :-";
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(443, 149);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(155, 20);
-            this.dateTimePicker1.TabIndex = 25;
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(143, 149);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(155, 20);
-            this.dateTimePicker2.TabIndex = 26;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(145, 3);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(134, 20);
-            this.textBox12.TabIndex = 27;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
@@ -433,6 +409,26 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnminus
+            // 
+            this.btnminus.Image = global::HotelManagementSystem.Properties.Resources.minus;
+            this.btnminus.Location = new System.Drawing.Point(519, 200);
+            this.btnminus.Name = "btnminus";
+            this.btnminus.Size = new System.Drawing.Size(28, 20);
+            this.btnminus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnminus.TabIndex = 35;
+            this.btnminus.TabStop = false;
+            // 
+            // btnplus
+            // 
+            this.btnplus.Image = global::HotelManagementSystem.Properties.Resources.plus;
+            this.btnplus.Location = new System.Drawing.Point(409, 200);
+            this.btnplus.Name = "btnplus";
+            this.btnplus.Size = new System.Drawing.Size(28, 20);
+            this.btnplus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnplus.TabIndex = 34;
+            this.btnplus.TabStop = false;
             // 
             // btnremove
             // 
@@ -466,26 +462,6 @@
             this.btnback.TabStop = false;
             this.btnback.Click += new System.EventHandler(this.btnback_Click);
             // 
-            // btnplus
-            // 
-            this.btnplus.Image = global::HotelManagementSystem.Properties.Resources.plus;
-            this.btnplus.Location = new System.Drawing.Point(409, 200);
-            this.btnplus.Name = "btnplus";
-            this.btnplus.Size = new System.Drawing.Size(28, 20);
-            this.btnplus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnplus.TabIndex = 34;
-            this.btnplus.TabStop = false;
-            // 
-            // btnminus
-            // 
-            this.btnminus.Image = global::HotelManagementSystem.Properties.Resources.minus;
-            this.btnminus.Location = new System.Drawing.Point(519, 200);
-            this.btnminus.Name = "btnminus";
-            this.btnminus.Size = new System.Drawing.Size(28, 20);
-            this.btnminus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnminus.TabIndex = 35;
-            this.btnminus.TabStop = false;
-            // 
             // CheckInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -501,11 +477,11 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnminus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnplus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnremove)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnadd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnback)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnplus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnminus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -513,11 +489,9 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btncheckin;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
