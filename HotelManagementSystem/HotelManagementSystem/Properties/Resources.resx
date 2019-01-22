@@ -130,17 +130,17 @@
   <data name="76438208-bed-line-icon-outline-hotel-room-vector-logo-linear-pictogram-isolated-on-white-pixel-perfect-illust" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\76438208-bed-line-icon-outline-hotel-room-vector-logo-linear-pictogram-isolated-on-white-pixel-perfect-illust.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="map-marker-2-xxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\map-marker-2-xxl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="istockphoto-1025633336-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\istockphoto-1025633336-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="09_search-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\09_search-512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="93405661-user-account-avatar-line-icon-outline-vector-sign-linear-style-pictogram-isolated-on-white-admin-pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\93405661-user-account-avatar-line-icon-outline-vector-sign-linear-style-pictogram-isolated-on-white-admin-pro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\plus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="200-2004006_beds12-bed-logo-png-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\200-2004006_beds12-bed-logo-png-transparent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="573a4743bc3b15ee164d8987_GBWL-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\573a4743bc3b15ee164d8987_GBWL-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +160,8 @@
   <data name="istockphoto-669353760-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\istockphoto-669353760-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\plus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="administrator-xxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\administrator-xxl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,10 +172,13 @@
   <data name="back-logo-icon-27727" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\photos\back-logo-icon-27727.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="200-2004006_beds12-bed-logo-png-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\200-2004006_beds12-bed-logo-png-transparent.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="map-marker-2-xxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\map-marker-2-xxl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="09_search-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\photos\09_search-512.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="create-account_318-31332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\photos\create-account_318-31332.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

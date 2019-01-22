@@ -39,10 +39,15 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnsubmit = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnback)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -140,13 +145,39 @@
             this.btnsubmit.TabIndex = 0;
             this.btnsubmit.Text = "Submit";
             this.btnsubmit.UseVisualStyleBackColor = false;
+            this.btnsubmit.Click += new System.EventHandler(this.btnsubmit_Click);
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 362);
+            this.flowLayoutPanel1.Controls.Add(this.listView1);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(84, 362);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(619, 68);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(401, 154);
             this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // listView1
+            // 
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listView1.Location = new System.Drawing.Point(3, 3);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(398, 151);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "ID";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Type";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Rate";
             // 
             // DiscountForm
             // 
@@ -164,6 +195,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -181,5 +213,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnsubmit;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
     }
 }

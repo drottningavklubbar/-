@@ -167,5 +167,31 @@ namespace HotelManagementSystem
             DiscountForm.Instance.BringToFront();
             DiscountForm.Instance.Visible = true;
         }
+
+        private void btnregistration_Click(object sender, EventArgs e)
+        {
+            if (panel3.Controls.Contains(RegistrationForm.Instance) != true)
+            {
+
+                panel3.Controls.Add(RegistrationForm.Instance);
+                RegistrationForm.Instance.Dock = DockStyle.Fill;
+                RegistrationForm.Instance.BringToFront();
+                RegistrationForm.Instance.Visible = true;
+
+            }
+            RegistrationForm.Instance.BringToFront();
+            RegistrationForm.Instance.Visible = true;
+        }
+
+        private void HomeForm_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label3.Text = DateTime.Now.ToString();
+        }
     }
 }

@@ -34,5 +34,10 @@ namespace HotelManagementSystem
         {
             this.Hide();
         }
+
+        private void btnsubmit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

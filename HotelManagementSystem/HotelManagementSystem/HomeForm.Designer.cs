@@ -28,26 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnclose = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.btncheckoutlist = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnguestinlist = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.btncheckinlist = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btnlogout = new System.Windows.Forms.Button();
             this.btndiscount = new System.Windows.Forms.Button();
             this.btnroom = new System.Windows.Forms.Button();
@@ -56,10 +44,23 @@
             this.btncheckin = new System.Windows.Forms.Button();
             this.btnroomlist = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnregistration = new System.Windows.Forms.PictureBox();
+            this.btnclose = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -71,11 +72,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnregistration)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.panel1.Controls.Add(this.btnregistration);
             this.panel1.Controls.Add(this.btnclose);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -86,17 +92,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(822, 74);
             this.panel1.TabIndex = 0;
-            // 
-            // btnclose
-            // 
-            this.btnclose.Image = global::HotelManagementSystem.Properties.Resources.download;
-            this.btnclose.Location = new System.Drawing.Point(801, 0);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(21, 21);
-            this.btnclose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnclose.TabIndex = 6;
-            this.btnclose.TabStop = false;
-            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // label2
             // 
@@ -120,28 +115,9 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Hotel";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::HotelManagementSystem.Properties.Resources._76438208_bed_line_icon_outline_hotel_room_vector_logo_linear_pictogram_isolated_on_white_pixel_perfect_illust;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 10);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::HotelManagementSystem.Properties.Resources.map_marker_2_xxl;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.pictureBox12);
             this.panel2.Controls.Add(this.btncheckoutlist);
             this.panel2.Controls.Add(this.pictureBox4);
@@ -168,18 +144,6 @@
             this.panel2.Size = new System.Drawing.Size(200, 519);
             this.panel2.TabIndex = 1;
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox12.Image = global::HotelManagementSystem.Properties.Resources._573a4743bc3b15ee164d8987_GBWL_01;
-            this.pictureBox12.Location = new System.Drawing.Point(0, 139);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 18;
-            this.pictureBox12.TabStop = false;
-            // 
             // btncheckoutlist
             // 
             this.btncheckoutlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
@@ -192,42 +156,6 @@
             this.btncheckoutlist.Text = "Check Out List";
             this.btncheckoutlist.UseVisualStyleBackColor = false;
             this.btncheckoutlist.Click += new System.EventHandler(this.btncheckoutlist_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox4.Image = global::HotelManagementSystem.Properties.Resources._573a4743bc3b15ee164d8987_GBWL_01;
-            this.pictureBox4.Location = new System.Drawing.Point(-3, 49);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox11.Image = global::HotelManagementSystem.Properties.Resources._200_2004006_beds12_bed_logo_png_transparent;
-            this.pictureBox11.Location = new System.Drawing.Point(0, 270);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 16;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox10.Image = global::HotelManagementSystem.Properties.Resources.administrator_xxl;
-            this.pictureBox10.Location = new System.Drawing.Point(-3, 229);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 14;
-            this.pictureBox10.TabStop = false;
             // 
             // btnguestinlist
             // 
@@ -242,18 +170,6 @@
             this.btnguestinlist.UseVisualStyleBackColor = false;
             this.btnguestinlist.Click += new System.EventHandler(this.btnguestinlist_Click);
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox9.Image = global::HotelManagementSystem.Properties.Resources.circle_check_512;
-            this.pictureBox9.Location = new System.Drawing.Point(3, 95);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 12;
-            this.pictureBox9.TabStop = false;
-            // 
             // btncheckinlist
             // 
             this.btncheckinlist.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
@@ -266,66 +182,6 @@
             this.btncheckinlist.Text = "Check In List";
             this.btncheckinlist.UseVisualStyleBackColor = false;
             this.btncheckinlist.Click += new System.EventHandler(this.btncheckinlist_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox8.Image = global::HotelManagementSystem.Properties.Resources.administrator_xxl;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 184);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 10;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox7.Image = global::HotelManagementSystem.Properties.Resources._200_2004006_beds12_bed_logo_png_transparent;
-            this.pictureBox7.Location = new System.Drawing.Point(-3, 317);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox6.Image = global::HotelManagementSystem.Properties.Resources.istockphoto_669353760_1024x1024;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 364);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox5.Image = global::HotelManagementSystem.Properties.Resources._106771184_exit_vector_icon_isolated_on_transparent_background_exit_logo_concept;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 406);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 7;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
-            this.pictureBox3.Image = global::HotelManagementSystem.Properties.Resources.circle_check_512;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
             // 
             // btnlogout
             // 
@@ -427,6 +283,182 @@
             this.panel3.Size = new System.Drawing.Size(622, 519);
             this.panel3.TabIndex = 2;
             // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox12.Image = global::HotelManagementSystem.Properties.Resources._573a4743bc3b15ee164d8987_GBWL_01;
+            this.pictureBox12.Location = new System.Drawing.Point(0, 139);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 18;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox4.Image = global::HotelManagementSystem.Properties.Resources._573a4743bc3b15ee164d8987_GBWL_01;
+            this.pictureBox4.Location = new System.Drawing.Point(-3, 49);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 6;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox11.Image = global::HotelManagementSystem.Properties.Resources._200_2004006_beds12_bed_logo_png_transparent;
+            this.pictureBox11.Location = new System.Drawing.Point(0, 270);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 16;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox10.Image = global::HotelManagementSystem.Properties.Resources.administrator_xxl;
+            this.pictureBox10.Location = new System.Drawing.Point(-3, 229);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 14;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox9.Image = global::HotelManagementSystem.Properties.Resources.circle_check_512;
+            this.pictureBox9.Location = new System.Drawing.Point(3, 95);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 12;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox8.Image = global::HotelManagementSystem.Properties.Resources.administrator_xxl;
+            this.pictureBox8.Location = new System.Drawing.Point(0, 184);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 10;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox7.Image = global::HotelManagementSystem.Properties.Resources._200_2004006_beds12_bed_logo_png_transparent;
+            this.pictureBox7.Location = new System.Drawing.Point(-3, 317);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 9;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox6.Image = global::HotelManagementSystem.Properties.Resources.istockphoto_669353760_1024x1024;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 364);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox5.Image = global::HotelManagementSystem.Properties.Resources._106771184_exit_vector_icon_isolated_on_transparent_background_exit_logo_concept;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 406);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 7;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(57)))), ((int)(((byte)(93)))));
+            this.pictureBox3.Image = global::HotelManagementSystem.Properties.Resources.circle_check_512;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(34, 28);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // btnregistration
+            // 
+            this.btnregistration.Image = global::HotelManagementSystem.Properties.Resources.create_account_318_31332;
+            this.btnregistration.Location = new System.Drawing.Point(771, 0);
+            this.btnregistration.Name = "btnregistration";
+            this.btnregistration.Size = new System.Drawing.Size(24, 21);
+            this.btnregistration.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnregistration.TabIndex = 11;
+            this.btnregistration.TabStop = false;
+            this.btnregistration.Click += new System.EventHandler(this.btnregistration_Click);
+            // 
+            // btnclose
+            // 
+            this.btnclose.Image = global::HotelManagementSystem.Properties.Resources.download;
+            this.btnclose.Location = new System.Drawing.Point(801, 0);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(21, 21);
+            this.btnclose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnclose.TabIndex = 6;
+            this.btnclose.TabStop = false;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HotelManagementSystem.Properties.Resources._76438208_bed_line_icon_outline_hotel_room_vector_logo_linear_pictogram_isolated_on_white_pixel_perfect_illust;
+            this.pictureBox1.Location = new System.Drawing.Point(21, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(25, 10);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::HotelManagementSystem.Properties.Resources.map_marker_2_xxl;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(66, 62);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(3, 488);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 22);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "label3";
+            // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -439,12 +471,11 @@
             this.Name = "HomeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomeForm";
+            this.Load += new System.EventHandler(this.HomeForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
@@ -455,6 +486,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnregistration)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -489,5 +524,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Button btncheckoutlist;
+        private System.Windows.Forms.PictureBox btnregistration;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label3;
     }
 }

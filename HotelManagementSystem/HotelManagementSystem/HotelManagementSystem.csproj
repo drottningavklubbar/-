@@ -70,6 +70,7 @@
     <Compile Include="CheckOutListForm.Designer.cs">
       <DependentUpon>CheckOutListForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="DatabaseConnection.cs" />
     <Compile Include="DiscountForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -99,6 +100,12 @@
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrationForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="RoomForm.cs">
       <SubType>UserControl</SubType>
@@ -157,6 +164,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoomForm.resx">
       <DependentUpon>RoomForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -190,6 +200,7 @@
     <Content Include="photos\administrator-xxl.jpg" />
     <Content Include="photos\back-logo-icon-27727.jpg" />
     <Content Include="photos\circle-check-512.jpg" />
+    <Content Include="photos\create-account_318-31332.jpg" />
     <Content Include="photos\depositphotos_212923008-stock-illustration-exit-icon-vector-isolated-white.jpg" />
     <Content Include="photos\download %281%29.jpg" />
     <Content Include="photos\download.jpg" />

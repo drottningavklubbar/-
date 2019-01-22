@@ -165,6 +165,16 @@ namespace HotelManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap create_account_318_31332 {
+            get {
+                object obj = ResourceManager.GetObject("create-account_318-31332", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap depositphotos_212923008_stock_illustration_exit_icon_vector_isolated_white {
             get {
                 object obj = ResourceManager.GetObject("depositphotos_212923008-stock-illustration-exit-icon-vector-isolated-white", resourceCulture);
